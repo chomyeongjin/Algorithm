@@ -20,7 +20,6 @@ int main() {
 
 	int len = s.size();
 	for (int i = 0; i < len; i++) {
-		if (s.size() == 0) break;
 		sum += s.top();
 		s.pop();
 	}
